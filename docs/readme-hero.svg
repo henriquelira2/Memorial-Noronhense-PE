@@ -1,0 +1,60 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Memorial Noronhense Digital</title>
+  <desc id="desc">Banner em degrade azul, verde e dourado para o README do projeto Memorial Noronhense Digital.</desc>
+  <defs>
+    <linearGradient id="heroGradient" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#061526"/>
+      <stop offset="0.42" stop-color="#063A54"/>
+      <stop offset="0.72" stop-color="#007C89"/>
+      <stop offset="1" stop-color="#F0B44D"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(850 92) rotate(129.11) scale(420 310)">
+      <stop stop-color="#67D5E6" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#67D5E6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000000" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="34" fill="url(#heroGradient)"/>
+  <rect width="1200" height="360" rx="34" fill="url(#light)"/>
+
+  <g opacity="0.18">
+    <path d="M0 285C145 238 237 322 365 267C493 212 522 113 680 141C838 169 873 267 1018 214C1099 184 1146 136 1200 121V360H0V285Z" fill="#061526"/>
+    <path d="M0 244C105 208 186 251 275 207C392 149 451 47 586 79C721 111 774 213 900 176C1011 143 1072 67 1200 61" stroke="#F6D38C" stroke-width="2"/>
+    <path d="M0 292C116 263 214 305 335 258C456 211 528 136 650 151C772 166 823 238 946 223C1069 208 1124 159 1200 148" stroke="#9CE8EF" stroke-width="2"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="88" y="62" width="1024" height="236" rx="28" fill="#06101D" fill-opacity="0.48" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  </g>
+
+  <g transform="translate(120 95)">
+    <rect x="0" y="0" width="76" height="76" rx="18" fill="#F0B44D" fill-opacity="0.16" stroke="#F6D38C" stroke-width="2"/>
+    <path d="M21 51C30 30 47 20 59 20C49 26 43 36 39 51H21Z" fill="#F6D38C"/>
+    <circle cx="28" cy="29" r="5" fill="#9CE8EF"/>
+    <path d="M22 57H58" stroke="#F6D38C" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <text x="220" y="132" fill="#FFFFFF" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700">
+    Memorial Noronhense Digital
+  </text>
+  <text x="222" y="180" fill="#D7F8FF" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="2">
+    EXPOSICAO DIGITAL DOS MEMORIAIS DE FERNANDO DE NORONHA
+  </text>
+  <text x="222" y="226" fill="#FFFFFF" fill-opacity="0.88" font-family="Arial, Helvetica, sans-serif" font-size="20">
+    Acervo em PDF, navegacao por paineis, busca e experiencia visual responsiva.
+  </text>
+
+  <g transform="translate(222 252)" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">
+    <rect x="0" y="0" width="96" height="34" rx="17" fill="#149ECA" fill-opacity="0.9"/>
+    <text x="48" y="22" text-anchor="middle" fill="#FFFFFF">React</text>
+    <rect x="112" y="0" width="86" height="34" rx="17" fill="#646CFF" fill-opacity="0.9"/>
+    <text x="155" y="22" text-anchor="middle" fill="#FFFFFF">Vite</text>
+    <rect x="214" y="0" width="118" height="34" rx="17" fill="#3178C6" fill-opacity="0.9"/>
+    <text x="273" y="22" text-anchor="middle" fill="#FFFFFF">TypeScript</text>
+    <rect x="348" y="0" width="92" height="34" rx="17" fill="#E95436" fill-opacity="0.95"/>
+    <text x="394" y="22" text-anchor="middle" fill="#FFFFFF">PDF</text>
+  </g>
+</svg>

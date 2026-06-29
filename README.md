@@ -1,17 +1,14 @@
-<div align="center" style="background: linear-gradient(135deg, #06233f 0%, #075c72 48%, #f0b44d 100%); border-radius: 18px; padding: 36px 24px; color: #ffffff;">
+<div align="center">
 
-# Memorial Noronhense Digital
+<img src="./docs/readme-hero.svg" alt="Memorial Noronhense Digital - Exposição digital dos memoriais de Fernando de Noronha" width="100%" />
 
-### Exposição digital dos memoriais de Fernando de Noronha
+<br />
+<br />
 
 ![React](https://img.shields.io/badge/React-Exposi%C3%A7%C3%A3o%20digital-149ECA?style=for-the-badge&logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-Interface%20r%C3%A1pida-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Dados%20tipados-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Acervo PDF](https://img.shields.io/badge/PDF-Acervo%20oficial-E95436?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)
-
-<p>
-  <strong>Um ambiente web para apresentar, navegar e abrir os painéis memoriais de Fernando de Noronha em uma experiência visual mais cuidada que uma lista simples de links.</strong>
-</p>
 
 </div>
 
